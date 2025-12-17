@@ -32,7 +32,7 @@ export default {
 </script>
 <template class="flex flex-col gap-2">
   <SnowParticles />
-  <main class="flex flex-col items-center justify-between gap-4">
+  <main class="flex flex-col items-center justify-between min-h-screen">
     <AppBar title="MTHC" subtitle="More than Hot Chocolate" />
 
     <div class="flex flex-col items-center justify-between px-5 my-5">
