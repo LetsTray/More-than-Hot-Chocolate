@@ -30,12 +30,12 @@ export default {
   },
 };
 </script>
-<template class="flex flex-col gap-2">
+<template>
   <SnowParticles />
   <main class="flex flex-col items-center justify-between min-h-screen">
     <AppBar title="MTHC" subtitle="More than Hot Chocolate" />
 
-    <div class="flex flex-col items-center justify-between px-5 my-5">
+    <div class="flex flex-col items-center justify-between px-5 ">
       <div class="text-white flex flex-col">
         <h1 class="font-display text-5xl md:text-7xl">Merry Christmas</h1>
         <p class="text-right text-base md:text-lg">and Happy New Year!</p>
