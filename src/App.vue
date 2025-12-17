@@ -2,6 +2,7 @@
 import AppBar from "./components/AppBar.vue";
 import Button from "./components/Button.vue";
 import Dialog from "./components/Dialog.vue";
+import FooterBar from "./components/FooterBar.vue";
 import SnowParticles from "./components/SnowParticles.vue";
 
 import Verse from "./data/verse.json";
@@ -11,6 +12,7 @@ export default {
     AppBar,
     Button,
     Dialog,
+    FooterBar,
     SnowParticles,
   },
   data() {
@@ -28,7 +30,7 @@ export default {
   },
 };
 </script>
-<template>
+<template class="flex flex-col gap-2">
   <SnowParticles />
   <main class="flex flex-col items-center justify-between gap-4">
     <AppBar title="MTHC" subtitle="More than Hot Chocolate" />
@@ -52,8 +54,6 @@ export default {
         />
       </div>
     </div>
+    <FooterBar crtext=" Copyright © 2025 Letstray. All Rights Reserved." />
   </main>
-  <footer class="text-xs text-white text-right mr-7">
-    Copyright © 2025 Letstray. All Rights Reserved.
-  </footer>
 </template>
