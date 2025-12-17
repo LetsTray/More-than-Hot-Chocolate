@@ -53,4 +53,7 @@ export default {
       </div>
     </div>
   </main>
+  <footer class="text-xs text-white text-right mr-7">
+    Copyright © 2025 Letstray. All Rights Reserved.
+  </footer>
 </template>
